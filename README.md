@@ -1,2 +1,2 @@
-# network-scanner
+# Network-scanner
 GUI for scanning network 
