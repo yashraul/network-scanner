@@ -1,6 +1,6 @@
 # This example demonstrates how to test the basic functionality of your scanner to detect live hosts on a network.
 import ipaddress
-from scapy.all import ICMP, IP, sr1
+from scapy.all import ICMP, IP, sr1  # type: ignore
 
 
 def ping_ip(ip):
