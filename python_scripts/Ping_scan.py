@@ -19,6 +19,6 @@ def scan_network(network):
 
 
 # Example Test
-network = "192.168.1.0/24"
+network = "0.0.0.0/0"  # change your ip accordingly
 live_hosts = scan_network(network)
 print(f"Live hosts: {live_hosts}")
